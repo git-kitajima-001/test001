@@ -10,7 +10,9 @@ public class MainController {
 	public static void main(String[] args) {
 
 		// 第1引数の数だけ勝負
-		int numberBout = Integer.parseInt(args[0]);
+		// int numberBout = Integer.parseInt(args[0]);
+		// 勝負回数設定
+		int numberBout = 100 ;
 
 		// スコアボードをインスタンス化
 		scoreboard scoreboard = new scoreboard();
